@@ -1,0 +1,13 @@
+Penjelasan Tugas 3 bootcamp harisenin.com, React.js
+
+1. Pada tugas kali ini saya membuat toko onlien sederhana dengan menggunakan data api dari dummyjson
+2. Saya melakukan styling menggunakan tailwindcss untuk sisi ui nya
+3. Saya melakukan fetching data menggunakan react hook (useEffect) dengan axios.get sebagai methode request
+4. Karena data yang di consume berada di dalam object, maka saya melakukan ditruction sebanyak 2 kali, pertama mendistruck object data, kemudian mendistruck object products
+5. Kemudian melakukan pharsing data seperti images, title, category, price, stock
+6. Kemudian membuat menu search untuk mencari title yang memiliki keyword sama dengan yang ada pada menu sarch
+7. dan saya juga membuat fitur react-route-dom pada navbar About dan Service, sehingga kekdua menu tersebut bisa di click dan berpindah halaman (multi page application)
+    - http://localhost:3000/about --> untuk menampilkan halaman about
+    - http://localhost:3000/service --> Untuk menampilkan halaman service
+8. Jika pada link routenya tidak ada, maka akan menampilkan halaman error. 
+    - http://localhost:3000/ --> Jika linknya tidak sesuai akan menampilkan halaman error (Notfound)
